@@ -1,6 +1,6 @@
 # MERN Stack Template
 
-<img src='https://github.com/belferink1996/MERN-template/blob/images/images/mern.jpeg' alt='MERN banner' width='700' />
+<img src='https://raw.githubusercontent.com/BenElferink/mern-template/refs/heads/images/images/mern.jpeg' />
 
 - **M** = [MongoDB](https://www.mongodb.com)
 - **E** = [Express.js](https://expressjs.com)
@@ -8,66 +8,63 @@
 - **N** = [Node.js](https://nodejs.org)
 
 <br />
-<br />
 
 # What is this template?
 
-This template allows you to quick-start your Fullstack application using the MERN stack, it has a server setup with some basic authentication, and a client ready to communicate with the backend.<br />
-I have attempted to use the best practices for both ends, which should make it easy for any advanced/new developer to use, and perhaps learn from.
+This template allows you to quick-start your Fullstack application using the MERN stack, it has a server setup with some basic authentication, and a client ready to communicate with the backend.
 
-<img src='https://github.com/belferink1996/MERN-template/blob/images/images/Screen%20Shot%202021-09-29%20at%2011.08.23.png' width='700' />
+<img src='https://raw.githubusercontent.com/BenElferink/mern-template/refs/heads/images/images/preview.png' />
 
-<br />
 <br />
 
 # How to use this template
 
 [📀 Demo video](https://youtu.be/N2pvvkyoS68)
 
-### STEP 1:
+### 1. Generate repository from template:
 
-Click ["Use this template"](https://github.com/benelferink/MERN-template/generate) to generate a
-new repository.<br />
-Then open your terminal and clone your repository:
+Click ["Use this template"](https://github.com/benelferink/mern-template/generate) to generate a
+new repo, then open your terminal and clone your new repo.
 
-> cd ~/Desktop <br />
-> git clone https://github.com/[your-user-name]/[your-repo-name].git
+```
+git clone https://github.com/[your_user_name]/[your_repo_name].git
+```
 
-<br />
+### 2. Install dependencies:
 
-### STEP 2:
+Go to the `server` folder, and run `install`.
 
-Go to the root of your repository's folder, and install all dependecies:
+```
+cd ./server
+npm i
+```
 
-> cd ~/Desktop/[your-repo-name]<br />
-> npm install
+Go to the `client` folder, and run `install`.
 
-<br />
+```
+cd ./client
+npm i
+```
 
-### STEP 3:
+### 3. Prepare MongoDB:
 
-Prepare your MongoDB database ([atlas](https://www.mongodb.com/cloud/atlas),
-[community](<https://github.com/benelferink/MERN-template/wiki/Install-MongoDB-Community-Server-(MacOS)>)).<br />
-Then configure your database within `server/constants/index.js`, by configuring the `MONGO_URI` variable.
+Prepare your MongoDB database (using [Atlas](https://www.mongodb.com/cloud/atlas),
+or [Community](<https://github.com/benelferink/mern-template/wiki/Install-MongoDB-Community-Server-(MacOS)>)). Then configure your database within `server/src/constants/index.js` (or `server/src/.env`), by configuring the `MONGO_URI` variable.
 
-<br />
+### 4. Start applications:
 
-### STEP 4: CODE !!!
+Go to the `server` folder, and run `dev`.
 
-<br />
-<br />
+```
+cd ./server
+npm run dev
+```
 
-### To run the client and/or the server, you can do any of the following:
+Go to the `client` folder, and run `dev`.
 
-From the `root` of your project run:
-> npm start
+```
+cd ./client
+npm run dev
+```
 
-#### OR
-
-Open terminal #1 (backend)
-> cd ./server<br />
-> npm start
-
-Open terminal #2 (frontend)
-> cd ./client<br />
-> npm start
+### 5. Happy Coding !!!
