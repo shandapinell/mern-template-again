@@ -9,6 +9,5 @@ updates:
     directories:
       - "/client"
       - "/server"
-    directory: "/client"
     schedule:
       interval: "weekly"
