@@ -19,8 +19,6 @@ This template allows you to quick-start your Fullstack application using the MER
 
 # How to use this template
 
-[📀 Demo video](https://youtu.be/N2pvvkyoS68)
-
 ### 1. Generate repository from template:
 
 Click ["Use this template"](https://github.com/benelferink/mern-template/generate) to generate a
